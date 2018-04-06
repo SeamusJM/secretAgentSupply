@@ -1,4 +1,5 @@
 html {
+  font-family: Helvetica;
   font-size: 18px;
 }
 
@@ -6,6 +7,7 @@ body {
   display: block;
   width: 960px;
 }
+/* Header Content */
 #logo {
   display: flex;
   font-family: Helvetica;
@@ -47,4 +49,88 @@ body {
 #banner h1 {
   font-size: 2rem;
   padding-bottom: 2rem;
+}
+
+#nav1 {
+  display: flex;
+  font-family: Helvetica;
+  font-size: 1rem;
+  background-color: firebrick;
+  color: white;
+  justify-content: center;
+  padding:  0.66rem 0;
+}
+
+#nav1 span {
+  margin: auto;
+}
+
+/* Default Flex Containers */
+.flex-container-row {
+  display: flex;
+}
+
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.block-container-inline {
+  display: block;
+  position: relative;
+}
+
+/* Section Content */
+
+#gadgets {
+justify-content: center;
+flex-wrap: wrap;
+height: auto;
+margin: auto;
+
+}
+
+
+#gadgets img {
+  height: 9rem;
+  width: auto;
+  padding: 2rem;
+  border: 4px solid black;
+  margin-top: 3rem;
+}
+
+#gadgets span {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  width: auto;
+  padding: 0.2rem;
+}
+
+#gadgets div {
+  margin: auto;
+}
+
+
+#info {
+  display: flex;
+}
+
+#info span {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  text-align: left;
+  width: 35%;
+  padding: 1rem 2rem;
+  margin-top: 3rem;
+}
+
+
+footer {
+  height: 5rem;
+  background-color: black;
+  color: white;
+  text-align: left;
 }
