@@ -126,7 +126,7 @@ margin: auto auto auto 0;
 
 #info {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-left: 2rem;
   margin-right: 2rem;
 }
